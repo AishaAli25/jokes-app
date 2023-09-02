@@ -37,7 +37,7 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            Color(.systemBackground)
+            Color(.white)
                 .edgesIgnoringSafeArea(.all)
                 .onTapGesture {
                     if showPunchline {
@@ -55,7 +55,7 @@ struct ContentView: View {
         // % shows the remainder, so it brings it back to the 1st joke (shorter method)
                 Text(jokes[currentJokeIndex % jokes.count].setup)
                     .padding()
-                    .font(.largeTitle)
+                    .font(.title)
                     .multilineTextAlignment(.center)
                 Button {
                     print("Shows the joke")
@@ -66,8 +66,9 @@ struct ContentView: View {
                     Text("*What*? **_Tell me_**!!")
                         .padding()
                         .background(Color.accentColor)
-                        .foregroundColor(.white)
+                        .foregroundColor(.yellow)
                         .cornerRadius(10)
+                        .font(.title2)
                 }
                 .padding(30)
                 
