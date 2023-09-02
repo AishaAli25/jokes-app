@@ -13,7 +13,7 @@ struct ContentView: View {
         
         Joke(setup: "Did you hear about the claustrophobic astronaut?", punchline: "He just needed a little space."),
         Joke(setup: "Why don’t scientists trust atoms?", punchline: "Because they make up everything."),
-        Joke(setup: "What did the left eye say to the right eye?", punchline: "Between you and me, something smells."),
+        Joke(setup: "What did the left eye say to the right eye?", punchline: "Between you and me, something smells. hahaa"),
         Joke(setup: "What do you call a fake noodle?", punchline: "An impasta!"),
         Joke(setup: "What did the shark say when he ate the clownfish?", punchline: "This tastes a little funny."),
         Joke(setup: "What do you call a fish wearing a bowtie?", punchline: "Sofishticated!"),
